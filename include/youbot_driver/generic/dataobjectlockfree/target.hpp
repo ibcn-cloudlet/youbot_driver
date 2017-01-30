@@ -5,7 +5,7 @@
 #  define OROBLD_OS_ARCH_x86_64
 # elif defined( __GNUC__ ) && (defined( __powerpc__ ) || defined( __PPC__ ) )
 #  define OROBLD_OS_ARCH_ppc
-# elif defined( __GNUC__ ) && (defined( __arm__ ) || defined( __ARM__ ) )
+# elif defined( __GNUC__ ) && (defined( __arm__ ) || defined( __ARM__ ) || defined( __aarch64__ ) )
 #  define OROBLD_OS_ARCH_arm
 # elif defined( __GNUC__ ) && defined( __ia64__ )
 #  error "ia64 Is not yet supported, contact the orocos-dev mailinglist for further actions."
